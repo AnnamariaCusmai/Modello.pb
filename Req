@@ -1,0 +1,8 @@
+# Requirements for ONNX to TensorFlow conversion
+tensorflow==1.15.0  # Last version of TF1.x with good ONNX support
+tensorflow-gpu==1.15.0  # Optional: if you have GPU support
+onnx==1.12.0  # Stable version compatible with TF 1.x
+onnx-tf==1.9.0  # ONNX to TensorFlow converter
+protobuf==3.20.0  # Required for compatibility
+numpy>=1.19.2,<1.20.0  # Compatible with TF 1.15
+six>=1.12.0  # Required by TensorFlow
